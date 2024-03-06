@@ -13,7 +13,7 @@ const App = () => (
         <img src={logo} alt="logo" className="w-28 object-contain" />
       </Link>
 
-      <Link to="/create-post" className="font-inter font-medium bg-[#6469ff] text-white px-4 py-2 rounded-md">Create</Link>
+      <Link to="/create-post" className="font-inter mr-32 font-medium bg-[#6469ff]  rounded-lg text-lg px-5 py-2.5 text-center me-2 mb-2 text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80">Create ➡️</Link>
     </header>
     <main className="sm:p-8 px-4 py-8 w-full bg-[#f9fafe] min-h-[calc(100vh-73px)]">
       <Routes>
