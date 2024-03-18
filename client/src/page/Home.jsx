@@ -102,7 +102,7 @@ const Home = () => {
               {searchText ? (
                 <RenderCards
                   data={searchedResults}
-                  title="No Search Results Found"
+                  title="No Search Results Found. Click on create to generate image."
                 />
               ) : (
                 <RenderCards
